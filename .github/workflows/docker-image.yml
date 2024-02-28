@@ -24,4 +24,4 @@ jobs:
       run: |
         docker buildx create --use
         docker buildx inspect --bootstrap
-        docker buildx build . --file Dockerfile --tag kingkong379/ocr:latest --push
+        docker buildx build . --file Dockerfile --tag kingkong379/ocr:v1 --push
